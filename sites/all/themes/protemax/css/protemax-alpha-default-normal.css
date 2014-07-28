@@ -1,0 +1,44 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+ 
+
+.pestanas .field {
+    background-image: -moz-linear-gradient(center top , #443CF9, #094378);
+    border-radius: 10px 10px 0 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 145px;
+}
+
+.pestanas .field.active {
+    background-image: -moz-linear-gradient(ce...top , #BFC258, #C1D30E);
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.contenidos {
+    border: 1px solid;
+    padding: 15px;
+    min-height: 150px;
+}
+/*
+jQuery(".contenidos .field").hide();
+jQuery(".contenidos .field").eq(0).show("fast");
+jQuery(".pestanas .field").eq(0).addClass("active");
+
+jQuery(".pestanas .field").click(function(){
+var index = jQuery(this).index();
+jQuery(".pestanas .field").removeClass("active");
+jQuery(".pestanas .field").eq(index).addClass("active");
+
+jQuery(".contenidos .field").hide("slow");
+jQuery(".contenidos .field").eq(index).show("slow");
+
+});
+
+*/

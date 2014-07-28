@@ -1,0 +1,451 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+
+
+
+/**********************************************************/
+/************************ GENERAL *************************/
+
+body{
+	font-family:verdana,helvetica,arial;
+	color: #6E6E70;
+    font-size: 11px;
+    line-height: 18px;
+}
+.front #block-system-main {
+    display: none;
+}
+
+p{
+	text-align: justify;
+	font-size:12px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:lato,verdana;
+	margin-bottom:10px;
+}
+h1 {
+    font-family: verdana;
+    font-size: 20px;
+}
+h2{
+	font-size:14px;
+}
+a:link, a:visited{
+color:#000;
+text-decoration:none;
+}
+
+a:hover {
+    color: #104613;
+    text-decoration: underline;
+}
+#first-time{
+	display:none;
+}
+.site-name-slogan {
+    margin-top: 58px;
+    margin-left: 50px;
+}
+
+.site-name-slogan h6 {
+    color: #E03704;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo-img {
+    left: 0;
+    position: absolute;
+    top: -93px;
+}
+.logo-img img {
+    width: 335px;
+}
+
+
+.front .title{
+	display:none;
+}
+
+
+/******************* Menu *********************************/
+.menu-principal {
+    float: right;
+    clear: both;
+    
+}
+
+.sf-menu.sf-style-blue li, 
+.sf-menu.sf-style-blue.sf-navbar {
+    background: none repeat scroll 0 0 transparent;
+}
+
+
+/******************* menu top *************************/
+.block.menu-top {
+   margin: 10px; 
+}
+
+.menu-top .menu-top-a {
+    color: #C9CACC;
+    font-size: 9px;
+    padding-left: 5px;
+}
+.menu-top .menu-top-li {
+    margin-right: 5px;
+    border-left: 1px solid #fff;
+}
+.menu-top .menu-top-li.first {
+    border: none;
+}
+
+.menu-top {
+    float: right;
+	
+}
+
+.section-preheader {
+	background:#282425;
+}
+
+
+/************************ PAGE *************************/
+
+
+/************************ SECTION *************************/
+
+
+.section-footer {
+    background: #000;
+}
+.zone-footer .content a {
+    color: #6E6E70;
+}
+
+.zone-footer .content p {
+   font-size:9px;
+}
+
+.zone-footer .block-title {
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #6E6E70;
+}
+
+.zone-footer .content ul {
+    margin-bottom: 0;
+    margin-left: 16px;
+}
+.zone-footer .content {
+    font-size: 9px;
+}
+.region-footer-first {
+    margin-top: 30px;
+}
+
+
+.section-header {
+    background:#015CAB;
+	padding-bottom: 5px;
+	margin-bottom:10px;
+}
+/************************ ZONE *************************/
+
+.zone {
+   /* background: #fff;*/
+}
+
+
+.zone.zone-footer{
+	
+}
+
+.zone-user-wrapper{
+	background:#000;
+
+}
+
+.zone-header .block,
+.zone-menu .block{
+	margin: 0px 0;
+}
+
+/************************ REGION *************************/
+
+.region-header-first {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/************************ CONTENT *************************/
+/************************ PAGES *************************/
+
+.page{
+	background:#fff;
+}
+
+
+/************************ NODES *************************/
+
+/******************* articulo ********/
+
+.field-name-field-image {
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+/************************ VIEWS *************************/
+/************************ BLOQUES *************************/
+
+.block {
+    margin: 5px 0;
+}
+
+.front .block-title {
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    color: #015CAD;
+    font-family: helvetica;
+    font-weight: normal;
+    padding: 13px 0 13px 5px;
+}
+
+h2.block-title{
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 0 0 10px 0;	
+}
+
+.region-sidebar-second .block-title {
+    
+    
+   
+}
+
+.region-sidebar-second .block .content {
+  
+}
+
+
+
+.block-12 {
+  
+}
+
+.block-search {
+    float: right;
+	clear:both;
+	margin-top:30px;
+	margin-bottom:15px;
+}
+
+.custom-title .block-title,
+#block-views-ultimo-articulo-block .block-title {
+  
+}
+
+
+.block-block-6 {
+   
+}
+
+.block-block-6 .content {
+   
+}
+
+.block-block-1 img {
+   
+}
+
+#block-block-10 {
+   
+}
+
+/******************* bloques del home ***************************/
+
+.bloque-home .block-title {
+    text-align: center;
+    padding: 5px 0;
+    font-family: lato;
+    font-size: 20px;
+    text-transform: uppercase;
+  /*  background: #6A613D;*/
+}
+.bloque-home .views-field-field-image {
+    
+    
+}
+
+/******************* submenu ***************************/
+.submenu {
+    display: inline-block;
+    margin-right: -5px;
+    padding: 0px 0;
+    text-align: center;
+    width: 25%;
+}
+.submenu.sec1 {
+    background: #93C457;
+}
+.submenu.sec2 {
+    background: #FFCC00;
+}
+.submenu.sec3 {
+    background: #FF7400;
+}
+.submenu.sec4 {
+    background: #FF3D00;
+}
+
+.submenu span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: arial;
+}
+
+/******************* slide *****************/
+.title-slide {
+    font-family: helvetica;
+    margin: 10px;
+}
+#block-block-7 .views-field-field-imagen-fid {
+    float: left;
+    margin: 10px;
+}
+#block-block-7 .views-field-field-imagen-fid {
+    float: left;
+    margin: 10px;
+}
+#block-block-6 .views-row,#block-block-7 .views-row {
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+.views-slideshow-pager-field-item {
+    color: #000000;
+    padding: 0 5px;
+	display: inline-block;
+	background:url("../images/slide-normal.jpg") no-repeat 0 0 transparent;
+	width:10px;
+	height:10px;
+	text-indent:-9999px;
+}
+
+.views-slideshow-pager-field-item.active{
+	background-image:url("../images/slide-active.jpg");
+}
+
+#widget_pager_bottom_slide-block {
+    text-align: center;
+}
+
+
+.views-slideshow-controls-bottom {
+  margin:10px 0;
+}
+
+.view-id-slide.view-display-id-block{ position:relative;}
+
+
+.text-slide {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+}
+.text-slide p {
+    padding-left: 10px;
+    width: 85%;
+}
+
+/******************* search **********************/
+
+.block-search-form .form-submit#edit-submit{
+	background:url("../images/boton-search.png") no-repeat ;
+	border:  none;
+    border-radius: 0;
+    text-indent: -99999px;
+    width: 24px; 
+}
+
+#edit-search-block-form--2 {
+    border-radius: 10px;
+}
+
+
+/******************* linea arquitectura random **********************/
+.random .views-field.views-field-title {
+    background: url("../images/bullet.jpg") no-repeat scroll left center transparent;
+    padding: 0 0 0 10px;
+}
+
+.random .views-field.views-field-title a {
+    color: #015CAD;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+
+.random .views-field.views-field-body {
+    padding: 0 0 0 10px;
+}
+
+/****************** bloque accesorios ********/
+
+.block-menu-accesorios .content ul {
+    margin: 10px 0 0 30px;
+}
+
+
+/************************ CLASES *************************/
+/************************  *************************/
+
+
+.block.last {
+    clear: both;
+}
+#assets a, #assets-a a, #assets-b a {
+    background:#002901;
+    background-position: 15px -2px;
+    float: left;
+    height: 198px;
+    margin-bottom: 10px;
+    width: 210px; 
+	text-indent:-9999px
+}
+#assets-a a{
+    background-position: -195px -2px;
+    width: 210px;
+}
+#assets-b a{
+    background-position: -406px -2px;
+    width: 210px;
+}
+
+#assets:hover ,#assets-a:hover, #assets-b:hover{
+    opacity: 0.5;
+}
+.social-media {
+    float: right;
+}
+
+.mas-info {
+    border: 1px solid;
+    padding: 1px 8px;
+    float: right;
+    margin: 10px 0;
+    font-size: 10px;
+}

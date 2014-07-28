@@ -1,0 +1,428 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+
+.feed-icon {
+    display: none;
+}
+
+.productos-portada {
+    margin:55px 0 0;
+}
+
+.productos-portada .views-row {
+    margin: 0 0 20px;
+}
+
+
+
+.listado .content li {
+    background: url("../images/bullet.jpg") no-repeat scroll left center transparent;
+    padding: 0 0 0 15px;
+	list-style:none;
+}
+
+
+.block.menu-accesorios {
+    margin-bottom: 40px;
+}
+
+.node-type-page h1 {
+    font-family: cabin;
+    font-size: 34px;
+    margin: 30px 0;
+    text-transform: uppercase;
+	
+}
+
+.block.linea-automotriz {
+    margin: 20px 0 0 0;
+}
+
+.page-node h1.title,
+.node-type-l-nea-automotriz h1{
+	font-family: cabin;
+    font-size: 34px;
+    margin: 30px 0 0 0;
+    text-transform:capitalize;
+	color: #005CAA;
+	line-height: 0.8em;
+}
+
+.name-content {
+    border-top: 4px solid #CCCCCC; 
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin: 18px 0;
+    padding: 5px 0 0;
+    text-align: right;
+    text-transform: uppercase;
+	line-height: 0.8em; 
+}
+
+
+.field-name-field-imagen-cabecera {
+    margin: 0 0 30px 0;
+}
+
+
+.horizontal-tabs-panes {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: -5px;
+	padding: 15px;
+}
+
+
+div.horizontal-tabs{
+	border:none ;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list .horizontal-tab-button {
+    border-radius: 10px 10px 0 0;
+	background:url("../images/tab-normal.jpg") repeat-x 0 0 transparent;
+	 padding: 0 20px;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list .horizontal-tab-button.selected,
+.horizontal-tabs ul.horizontal-tabs-list .horizontal-tab-button:hover{
+	background:url("../images/tabs-active.jpg") repeat-x 0 0 transparent;
+	 padding: 0 20px;
+	
+}
+.horizontal-tabs ul.horizontal-tabs-list .horizontal-tab-button:hover a strong,
+.horizontal-tabs ul.horizontal-tabs-list .horizontal-tab-button.selected a strong{
+	color:#fff;
+}
+
+
+.horizontal-tabs ul.horizontal-tabs-list .horizontal-tab-button:hover a {
+	background:none;
+}
+
+.horizontal-tabs ul.horizontal-tabs-list {
+    background: none;
+	border:none;
+}
+
+
+
+.horizontal-tabs-list .horizontal-tab-button.horizontal-tab-button-3.last {
+    text-align: center;
+    width: 81.4px;
+}
+.chrome .horizontal-tabs-list .horizontal-tab-button.horizontal-tab-button-3.last {
+    text-align: center;
+    width: 81.5px;
+}
+
+
+.menu-lateral h2.block-title {
+    background: #005CAB;
+    border-radius: 10px 10px 0 0;
+    color: #FFFFFF;
+    font-family: cabin;
+    font-size: 17px;
+    padding: 10px;
+    vertical-align: bottom;
+}
+
+.menu-lateral .content {
+    padding: 0 0 0 25px;
+}
+
+.menu-lateral .content li {
+    border-top: 1px solid #555;
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.menu-lateral .content li a {
+    color: #005CAA;
+}
+
+.menu-lateral .content li li a {
+}
+
+
+
+/***************************/
+
+ .views-field.views-field-type {
+    font-size: 30px;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+.field.field-name-title h2 {
+    color: #004E95;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+
+ul.menu li {
+    color: #005DAB;
+}
+
+ul.menu li li {
+    list-style: none;
+}
+
+
+
+.teaser.linea-automotriz .views-row,
+.block-linea-automotriz-block-1 .views-row {
+    margin: 0 0 20px;
+}
+
+.teaser.linea-automotriz .group-left,
+.block-linea-automotriz-block-1 .group-left {
+    float: left;
+    width: auto;
+}
+
+.teaser.linea-automotriz .group-right,
+.block-linea-automotriz-block-1 .group-right {
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 20px;
+    width: 430px;
+}
+
+.teaser.linea-automotriz .field.field-name-title h2,
+.block-linea-automotriz-block-1 .field.field-name-title h2 {
+    margin:10px 0 0;
+}
+
+.teaser.linea-automotriz .field.field-name-title h2 a,
+.block-linea-automotriz-block-1 .field.field-name-title h2 a {
+    color: #004E95;
+    font-size: 20px;
+    font-weight: normal;
+  /*  margin: 20px 0;*/
+    text-transform: capitalize;
+}
+
+
+.front.tienda .jcarousel-container-horizontal {
+    width: 260px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	 height: 85px;
+}
+
+.front.tienda .jcarousel-clip-horizontal {
+    height: 90px;
+    width: 260px;
+	overflow: hidden;
+}
+
+
+.front.tienda .jcarousel-item {
+	border:none;
+}
+
+.front.tienda .jcarousel-item li{
+	margin:0;
+}
+
+.front.tienda .jcarousel-prev,
+.front.tienda .jcarousel-next{
+	 top: 25px;
+}
+.front.tienda .jcarousel-prev{
+	left: -10px;
+}
+
+.front.tienda .jcarousel-next{
+	right: -10px;
+}
+
+
+.front.tienda h2 {
+    border: 1px solid #005BB0;
+    font-family: helvetica;
+    font-size: 17px;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    padding: 5px;
+}
+.front.tienda .view-content{
+	border: 1px solid #005BB0;
+	border-top: none;
+}
+
+
+/***  NOvedades ***/
+.novedades h2.block-title{
+	background: url("../images/backg-novedades.jpg") repeat-x scroll 0 0 transparent;
+    border-radius: 10px 10px 0 0;
+    color: #FFFFFF;
+    font-family: cabin;
+    font-size: 17px;
+    padding: 10px 10px 0;
+    vertical-align: bottom;
+	margin-bottom:0px;
+	
+	
+}
+
+
+.novedades .content{
+	 border: 1px solid #C2C2C2;
+	 padding: 10px 30px;
+}
+
+.espacio-top{
+	margin-top:20px;
+}
+
+
+
+.tienda.inside h2.block-title {
+    background: none repeat scroll 0 0 #005CAB;
+    border-radius: 10px 10px 0 0;
+    color: #FFFFFF;
+    font-family: cabin;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 0.8em;
+    margin-bottom: 0;
+    padding: 10px;
+    vertical-align: bottom;
+}
+
+.tienda.inside .content{
+	 border: 1px solid #C2C2C2;
+	 padding: 10px;
+}
+
+.tienda.inside .field-content .col {
+    display: inline-block;
+    vertical-align: top;
+	 margin: 0 3px;
+}
+.tienda.inside .field-content .col.col1 li{
+margin:0
+}
+
+.tienda.inside .field-content .col.col2 {
+    width:120px;
+}
+
+.tienda.inside .views-row {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+
+
+.tienda.inside .views-row.views-row-last{
+	border-bottom:none;
+}
+
+
+.field-name-field-fotos .field-item {
+    background: none repeat scroll 0 0 rgba(203, 53, 53, 0.5);
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
+}
+
+.field-slideshow-controls a {
+    position: absolute;
+    top: 250px;
+    width: 35px;
+    height: 35px;
+    z-index: 99999;
+    text-indent: -9999px;
+	
+}
+.node-add-to-cart.form-submit,
+.list-add-to-cart.form-submit,
+div.col.col3 input {
+    background: none repeat scroll 0 0 #2988D5;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+.node-add-to-cart.form-submit:hover,
+.list-add-to-cart.form-submit:hover,
+div.col.col3 input:hover{
+	background:#005CAB;
+}
+
+
+.field-slideshow-controls a.prev{
+	background:url("../images/prev.png") no-repeat center center transparent;
+}
+
+
+.field-slideshow-controls a.next {
+    background: url("../images/next.png") no-repeat scroll center center transparent;
+    right: 10px;
+}
+
+.jqzoom-element {
+    width: 454px;
+	margin: 0 0 10px;
+}
+
+.jqzoom-element-title{
+	display:none;
+}
+
+.zoomWindow {
+    overflow: hidden;
+	border:1px solid;
+}
+
+.zoomPup {
+    background: rgba(250, 250, 250, 0.7);
+}
+
+
+
+.zoomPad {
+    position: relative;
+}
+
+.zoomPad > img {
+    border: 1px solid #DAD3D3;
+    margin: 0 0 5px 0;
+}
+
+.jqzoom-thumbnails {  
+    border: 1px solid #DAD3D3;
+}
+
+.jqzoom-thumbnails a {
+    display: inline-block;
+    margin: 5px;
+}
+
+/*****************************/
+
+.lista-teaser .views-row .field {
+    display: inline-block;
+}
+.lista-teaser .views-row {
+    display: inline-block;
+    height: 260px;
+    text-align: center;
+    vertical-align: top;
+    width: 180px;
+}
+
+.views-row .field h4 a {
+    color: #797979;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.lista-teaser .block-title {
+    color: #005CAB;
+    font-family: cabin;
+}
